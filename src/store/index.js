@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux';
 
-import textTransform from './textTransform'
+import textTransform from '../reducers/textTransform'
+import notification from '../reducers/notification'
 
 export default combineReducers({
-    textTransform
+    textTransform,
+    notification
 })

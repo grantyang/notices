@@ -1,0 +1,33 @@
+.notification-error {
+  width: 300px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid grey;
+  font-family: sans-serif;
+  background-color: lightcoral;
+  padding: 10px
+}
+
+.notification-success {
+  width: 300px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid grey;
+  font-family: sans-serif;
+  background-color: lightgreen;
+  padding: 10px
+}
+
+.notification-loading {
+  width: 300px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid grey;
+  font-family: sans-serif;
+  background-color: lightblue;
+  padding: 10px
+}
+

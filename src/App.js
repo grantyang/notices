@@ -6,6 +6,7 @@ import './App.css';
 import Home from './pages/Home'
 import LowerCase from './pages/LowerCase'
 import UpperCase from './pages/UpperCase'
+import Notification from './containers/Notification'
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
               <Route path="/lowercase" component={LowerCase} />
               <Route path="/uppercase" component={UpperCase} />
             </Switch>
+            <Notification/>
           </div>
         </div>
       </Router>
